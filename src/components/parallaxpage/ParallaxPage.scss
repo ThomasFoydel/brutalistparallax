@@ -1,0 +1,112 @@
+.parallax-main {
+  margin: 0.4rem 0;
+}
+
+.parallax-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100vw;
+  height: 20rem;
+  z-index: 4;
+  padding: 3rem 2rem 3rem 4rem;
+  text-align: center;
+  font-size: 8vw;
+  letter-spacing: 2.9vw;
+  color: white;
+  cursor: default;
+}
+
+.parallax-inner-text {
+  font-size: 3vw;
+  padding: 0 5rem;
+  letter-spacing: 0.5rem;
+}
+
+.parallax-image {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 90vw;
+  height: 95vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.parallax-image1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.521) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../../imgs/brutalism1.jpg');
+}
+
+.parallax-image2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.37969738924050633) 0%,
+      rgba(0, 0, 0, 0.5917227056962026) 100%
+    ),
+    url('../../imgs/brutalism2.jpg');
+}
+
+.parallax-image3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.37969738924050633) 0%,
+      rgba(0, 0, 0, 0.5917227056962026) 100%
+    ),
+    url('../../imgs/brutalism3.jpg');
+}
+
+.parallax-image4 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.37969738924050633) 0%,
+      rgba(0, 0, 0, 0.5917227056962026) 100%
+    ),
+    url('../../imgs/brutalism4.jpg');
+}
+
+.parallax-image5 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.37969738924050633) 0%,
+      rgba(0, 0, 0, 0.5917227056962026) 100%
+    ),
+    url('../../imgs/brutalism5.jpg');
+}
+
+.parallax-image-container {
+}
+
+// .infoxbox1 {
+//   position: absolute;
+//   top: 98vh;
+//   height: 108.2vh;
+//   background: #eee;
+//   padding: 2rem 8vw;
+// }
+
+.prarallax-order-button {
+  font-size: 2rem;
+  background: rgba(201, 201, 201, 0.521);
+  width: 60%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 0.8rem 2rem;
+  padding-left: 4rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.9rem;
+  cursor: pointer;
+}
+
+.parallax-textlayer {
+  //   background: rgba(255, 0, 0, 0.651) !important;
+  position: absolute;
+  top: 98vh;
+  height: 108.2vh;
+  background: #eee;
+  padding: 2rem 8vw;
+}

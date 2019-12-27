@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  background: #eeeeee;
+
+  font-size: 62.5%;
+  top: 0;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  box-sizing: border-box;
+  background: rgb(44, 44, 44);
+  max-width: 100vw;
+  overflow-y: hidden;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+button:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.hover-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.app-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.app-subjectsandcards {
+  display: flex;
+  height: 67vh;
+  min-height: 40rem;
+}
+
+.backdropblur {
+  background: rgba(10, 10, 10, 0.356);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  backdrop-filter: blur(0.2rem);
+}
+
+.parallax-container {
+  height: 93vh;
+}
+.parallax {
+  min-height: 93vh;
+  max-height: 93vh;
+  padding: 5rem 0;
+}
+
+.prlx-container {
+  padding: 0 2rem;
+}
+
+.parallax-innertextbox {
+  position: absolute;
+  width: 90%;
+  height: 15vh;
+  margin-left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin-top: 47vh;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  /* padding: 0.3rem; */
+  font-size: 5rem;
+  letter-spacing: 2rem;
+  cursor: default;
+}
+
+.section {
+  height: 93vh;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.brand-logo {
+  white-space: nowrap;
+}

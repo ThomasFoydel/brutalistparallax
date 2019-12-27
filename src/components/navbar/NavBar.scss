@@ -1,0 +1,90 @@
+$break-medium: 650px;
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  //   background: #22451b;
+  background: #1b1b1b;
+  color: rgb(231, 231, 231);
+  height: 5rem;
+  width: 100%;
+}
+
+.brand-logo {
+  float: left;
+  font-size: 2.7rem;
+  padding-left: 1rem;
+  color: #ddd;
+  cursor: pointer;
+  &:hover {
+    color: white;
+  }
+}
+
+.navbar-large {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 0rem;
+  top: 0;
+
+  li {
+    padding: 1.2rem 1rem;
+    // margin: 0 0.3rem;
+    min-height: 5rem;
+    cursor: pointer;
+    &:hover {
+      background: #353535;
+      // background: #313131;
+      color: white;
+    }
+  }
+}
+
+.hide-on-large {
+  display: none;
+  @media screen and (max-width: $break-medium) {
+    display: initial;
+  }
+}
+
+.hide-on-med-and-down {
+  display: flex;
+  @media screen and (max-width: $break-medium) {
+    display: none;
+  }
+}
+
+.navbar-opensidebar {
+  position: absolute;
+  right: 3rem;
+  top: 1.6rem;
+  transform: scale(1.8);
+  cursor: pointer;
+}
+
+.sidebarmenu {
+  top: 5.1rem;
+  height: 95vh;
+  color: #222;
+  background: #ddd;
+  z-index: 4;
+  width: 25rem;
+
+  div {
+    padding: 2rem 1rem 1rem 4rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+}
+
+.sidebarmenu-linebreak {
+  width: 80%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+}
