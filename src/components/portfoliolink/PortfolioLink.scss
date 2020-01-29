@@ -59,11 +59,14 @@ $break-small: 414px;
 
 .app-closeportfoliolink {
   color: rgb(133, 133, 133);
-  cursor: pointer;
+
   margin-right: 0.6rem;
   transform: scale(1.4);
   transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  &:hover {
-    color: rgb(116, 0, 0);
+  i {
+    cursor: pointer;
+    &:hover {
+      color: rgb(116, 0, 0);
+    }
   }
 }
