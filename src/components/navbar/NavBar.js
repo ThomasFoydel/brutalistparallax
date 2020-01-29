@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { useSpring, animated, config } from 'react-spring';
 import { CTX } from 'context/Store';
+import icon from 'imgs/brutalist.ico';
 
 import './NavBar.scss';
 
@@ -34,6 +35,7 @@ const NavBar = () => {
         <div className='navbar'>
           <div className='nav-wrapper'>
             <div className='brand-logo' onClick={() => changePage(0)}>
+              {/* <img src={icon} style={{ width: '2.6rem', height: '2rem' }}></img> */}
               BrutalistParallax
             </div>
             <div data-target='mobile-demo' className='sidenav-trigger'>
